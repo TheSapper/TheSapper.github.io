@@ -1,22 +1,7 @@
 ---
 layout: default
 ---
-<article>
-  <header>
-    <h1>{{ post.title }}</h1>
-    <p>{{ post.date | date_to_string }}</p>
-  </header>
-  <div class="post-body">
-  {{ content }}
-  </div>
-  <footer>
-    <ul class="share-buttons">
-      <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}&quote={{ post.title }}" target="_blank" title="Share on Facebook"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a></li>
-      <li><a href="https://twitter.com/intent/tweet?source={{ site.url }}&text={{ post.title }}: {{ site.url }}&via=InfosecSapper" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i><span class="sr-only">Tweet</span></a></li>
-      <li><a href="https://plus.google.com/share?url={{ site.url }}" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a></li>
-      <li><a href="http://www.reddit.com/submit?url={{ site.url }}&title={{ post.title }}" target="_blank" title="Submit to Reddit"><i class="fa fa-reddit-square fa-2x" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a></li>
-      <li><a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}&title={{ post.title }}&summary={{ post.excerpt }}&source={{ site.url }}" target="_blank" title="Share on LinkedIn"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i><span class="sr-only">Share on LinkedIn</span></a></li>
-      <li><a href="mailto:?subject={{ post.title }}&body={{ post.excerpt }}: {{ site.url }}" target="_blank" title="Send email"><i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i><span class="sr-only">Send email</span></a></li>
-    </ul>
-  </footer>
-</article>
+<p>{{ page.date }}</p>
+<ul>{% for tag in page.tags %}...{% endfor %}</ul>
+{{ content }}
+{% include post-footer.html %}
