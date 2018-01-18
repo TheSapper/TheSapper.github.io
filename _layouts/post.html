@@ -2,7 +2,7 @@
 layout: default
 ---
 <h1>{{ post.title }}</h1>
-<p>{{ post.date | date_to_string }}</p>
+<p>{{ post.date }}</p>
 <ul>{% for tag in page.tags %}...{% endfor %}</ul>
 {{ content }}
 {% include post-footer.html %}
