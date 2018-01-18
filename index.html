@@ -1,8 +1,15 @@
 ---
 layout: default
-title: The Infosec Sapper
+title: The Infosec Sapper's Home
+description: This is the home of The Infosec Sapper.
 ---
-<div class="blurb">
-	<h1>Test Page</h1>
-	<p>Testing migration from WordPress to GitHub Pages using Jekyll</p>
-</div><!--/.blurb>
+<div class="posts">
+	<ul>
+		{% for post in site.posts %}
+		<li>
+			<a href="{{ post.url }}">{{ post.title }}</a>
+			{{ post.excerpt }}
+		</li>
+		{% endfor %}
+	</ul>
+</div><!-- /posts -->
