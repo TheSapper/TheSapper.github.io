@@ -1,19 +1,18 @@
 <!doctype html>
-<html lang="{{ site.lang | default: "en-GB" }}">
+<html lang=en>
   <head>
-    {{% include analytics.html %}} <!--Google Analytics -->
+    <!-- Google Analytics -->
+    {{% include analytics.html %}}
+    <!-- Metadata -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-{% seo %}
-
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta name="description" content="{{ page.description }}">
+    <meta name="author" content="TheSapper">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <title>{{ site.name }} | {{ page.title }}</title>
   </head>
   <body>
+    {{% include sidebar.html %}}
     <div class="wrapper">
       <header>
         <a href="{{ site.github.url }}"> <h1>{{ site.title | default: site.github.repository_name }}</h1> </a>
