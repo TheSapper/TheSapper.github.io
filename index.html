@@ -1,0 +1,15 @@
+---
+layout: default
+title: The Infosec Sapper's Home
+description: This is the home of The Infosec Sapper.
+---
+<!-- posts -->
+<ul>
+	{% for post in site.posts %}
+	  <li>
+	  <a href="{{ post.url }}">{{ post.title }}</a>
+	    {{ post.excerpt }}
+	  </li>
+	{% endfor %}
+</ul>
+<!-- /posts -->

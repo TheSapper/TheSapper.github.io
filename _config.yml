@@ -1,6 +1,4 @@
 url: https://infosecsapper.com
-name: The Infosec Sapper
-description: Home of the Infosec Sapper
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 excerpt_separator: <!-- More -->
