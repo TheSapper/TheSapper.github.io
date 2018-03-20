@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="description" content="{{ page.description }}">
     <meta name="author" content="TheSapper">
-    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <title>{{ site.name }} | {{ page.title }}</title>
   </head>
@@ -15,8 +15,7 @@
     {{% include sidebar.html %}}
     <div class="wrapper">
       <header>
-        <a href="{{ site.github.url }}"> <h1>{{ site.title | default: site.github.repository_name }}</h1> </a>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <a href="{{ site.github.owner_url }}"> <h1>InfosecSapper</h1></a>
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
       </header>
       <section>
