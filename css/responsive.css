@@ -1,0 +1,27 @@
+/*
+Screen size is small, medium or large mobile (320-425px):
+- Nav moved to burger menu
+- Burger menu overlays page content
+- Article list/preview uses full screen-width.
+*/
+@media (min-width: 320px){
+
+}
+
+/*
+Next screen size is tablet (768px):
+- Nav stays in burger menu
+- Burger menu pushes page content
+*/
+@media (min-width: 768px){
+
+}
+
+/*
+Largest minimum screen size (desktop 1024px):
+- Nav moved from burger menu to sidebar
+- Content limited to half screen max-width
+*/
+@media (min-width: 1024px){
+  
+}
