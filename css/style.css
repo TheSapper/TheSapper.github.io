@@ -1,4 +1,4 @@
-@import "rouge-github";
+@import "/rouge-github.scss";
 
 body {
   background-color: #fff;
