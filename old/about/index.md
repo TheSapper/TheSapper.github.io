@@ -1,5 +1,0 @@
-I have developed a keen interest in information and cyber security during my decade of IT systems administration experience. Having worked for companies in various industries, from financial to managed services, I’ve seen both good and bad examples of how a business should approach its IT systems; from completely bespoke systems with no regulation, to vendor-centric PCI-DSS and ISO 27001 compliant environments, I’ve come to understand the many risks a corporate network can face and, in many cases, present.
-
-Taking a somewhat extreme career diversion to serve with The Corps of Royal Engineers as a Counter-IED Search Team member provided me with many invaluable lessons, including the application of operational security (OPSEC) measures and an appreciation for patterns of behaviour.
-
-Taking everything I’ve learned, I’ve begun forging a career in cyber security as a Security Consultant based in London, UK. When not practicing network pen-testing, I enjoy almost anything automotive, eating good food, and travelling with my beautiful bride-to-be.
