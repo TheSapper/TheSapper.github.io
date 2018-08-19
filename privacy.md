@@ -17,7 +17,8 @@ This website will respect your current "Do Not Track" (DNT) setting. DNT is a pr
 I use Google Analytics as a third party analytics service, but not for advertising purposes. The information I collect is used for the sole purpose of analysing how the website performs and how the website's visitors, in general, navigate and use the site. My intent is to gain an understanding of the website's strengths and flaws, in order to create a better user experience. You can find out more information about how Google Analytics collects and processes data, as well as how you can control the collection of that data, by visiting [Google's support pages](https://support.google.com/analytics/answer/6004245).
 
 ## Cookies
-Cookies are small files placed on your computer by websites you visit. They can be used for a number of things, including remembering user preferences. This site uses first party cookies only. If you discover any cookies from this site not listed below, please [raise an issue](https://github.com/InfosecSapper/InfosecSapper.github.io/issues/new). The following is an exhaustive list of cookies used by this site:  
+Cookies are small files placed on your computer by websites you visit. They can be used for a number of things, including remembering user preferences. This site uses first party cookies only. If you discover any cookies from this site not listed below, please [raise an issue](https://github.com/InfosecSapper/InfosecSapper.github.io/issues/new). The following is an exhaustive list of cookies used by this site:
+
 | Cookie name | Purpose                                             |
 | ----------- | --------------------------------------------------- |
 | \_ga        | Used by Google Analytics to create a unique user ID |
