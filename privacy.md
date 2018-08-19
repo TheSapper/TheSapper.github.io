@@ -5,8 +5,8 @@ description: Privacy information for infosecsapper.com
 ---
 *Last updated: 2018-08-19*  
 # Privacy Statement
->*"No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks."  
->Article 12, Universal Declaration of Human Rights, UN.*
+>*"No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks."*  
+>Article 12, Universal Declaration of Human Rights, UN.
 
 I am a private person and, as I expect other people to respect my right to privacy, I respect theirs. This means you, as a visitor to my site, can expect me to make every feasible effort to ensure that any data collected during your visit is minimal, and that the use of that data is as transparent as possible. To that end, this page will detail the collection and use of your data, in full.
 
@@ -17,9 +17,9 @@ This website will respect your current "Do Not Track" (DNT) setting. DNT is a pr
 I use Google Analytics as a third party analytics service, but not for advertising purposes. The information I collect is used for the sole purpose of analysing how the website performs and how the website's visitors, in general, navigate and use the site. My intent is to gain an understanding of the website's strengths and flaws, in order to create a better user experience. You can find out more information about how Google Analytics collects and processes data, as well as how you can control the collection of that data, by visiting [Google's support pages](https://support.google.com/analytics/answer/6004245).
 
 ## Cookies
-Cookies are small files placed on your computer by websites you visit. They can be used for a number of things, including remembering user preferences. This site uses first party cookies only. If you discover any cookies from this site not listed below, please [raise an issue](https://github.com/InfosecSapper/InfosecSapper.github.io/issues/new). The following is an exhaustive list of cookies used by this site:
+Cookies are small files placed on your computer by websites you visit. They can be used for a number of things, including remembering user preferences. This site uses first party cookies only. If you discover any cookies from this site not listed below, please [raise an issue](https://github.com/InfosecSapper/InfosecSapper.github.io/issues/new). The following is an exhaustive list of cookies used by this site:  
 Cookie name | Purpose
------------ | -----------
+----------- | -------
 \_ga | Used by Google Analytics to create a unique user ID
 \_gid | Used by Google Analytics to create a unique user ID
 theme | Used by this site to remember your theme preference
