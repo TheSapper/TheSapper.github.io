@@ -18,11 +18,11 @@ I use Google Analytics as a third party analytics service, but not for advertisi
 
 ## Cookies
 Cookies are small files placed on your computer by websites you visit. They can be used for a number of things, including remembering user preferences. This site uses first party cookies only. If you discover any cookies from this site not listed below, please [raise an issue](https://github.com/InfosecSapper/InfosecSapper.github.io/issues/new). The following is an exhaustive list of cookies used by this site:  
-Cookie name | Purpose
------------ | -------
-\_ga | Used by Google Analytics to create a unique user ID
-\_gid | Used by Google Analytics to create a unique user ID
-theme | Used by this site to remember your theme preference
+| Cookie name | Purpose                                             |
+| ----------- | --------------------------------------------------- |
+| \_ga        | Used by Google Analytics to create a unique user ID |
+| \_gid       | Used by Google Analytics to create a unique user ID |
+| theme       | Used by this site to remember your theme preference |
 
 ## General Statement
 If any part of this policy changes I will publish notification of that change as far in advance as I am able. Rest assured, my reason for collecting any information about your visit is for an interest in the visit itself, not in you as an individual. As such, no personally identifiable information is collected, stored or processed by me; the closest thing to PII would be the IP address collected by Google Analytics, but that has been configured specifically to be anonymised (which can be seen in the GA code for this site). However, should you find that there is any data being erroneously collected, or if you have any questions in general, please [raise an issue](https://github.com/InfosecSapper/InfosecSapper.github.io/issues/new).
