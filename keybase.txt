@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/thesapper
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://infosecsapper.com
+  * I am thesapper (https://keybase.io/thesapper) on keybase.
+  * I have a public key with fingerprint 5A21 CAF5 86AE 593C AF78  2633 BB6A 767C BC6C 1C34
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120bf37de5843900f0ce8f1de9cd8349778fa9ca2886b893560fcb3e3e8856ed0eb0a",
+      "fingerprint": "5a21caf586ae593caf782633bb6a767cbc6c1c34",
+      "host": "keybase.io",
+      "key_id": "bb6a767cbc6c1c34",
+      "kid": "0101598f620c439ee0b365e33ca4cd295e1011aa04595ff72fbcb3ac7f77a7a9965f0a",
+      "uid": "8dbc86b371de042322a776f818c82b19",
+      "username": "thesapper"
+    },
+    "service": {
+      "hostname": "infosecsapper.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1536695916,
+  "expire_in": 157680000,
+  "prev": "7e72570e85cff2d4653c11176e03d8109976263935e88aa130340cdd988dba6d",
+  "seqno": 21,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.77
+Comment: https://keybase.io/crypto
+
+yMNuAnicbZJrTBxVFMeXVmjA0OIDsRTWMkBJDIF5z52NoUisFDfa2hRahWSZuXNn
+mQK7y+yyyqM8K1R2MZFQgtWAoiZACyXVD6XluaEltNqEpAJKqymmQghQUZZq1NS7
+2H7zfrmv3/nf/znnToRvN4QFXTnhrhwqimGDbox3lBpy241FFYRsV8oIUwVRiLYm
+VKQgp8tSqCmEiSApmpRVRlAQB1hGJEmVhAiolIJEqACGFQUBqJIIJRoAXgYiw/Gk
+CmUGMQgAjkcKiWRSIpIJVbNZke7QNZsLy3ISTUFJ5QAvIU5k8FIANM8wssxLAi9A
+GfKQggyLAwvszkAENidLTpSi2fEZ3li27P0P/9g3SXEiUHmahNg3QqTM8Bxi8FMs
+VGiRQxigJIlkOZFTVYFWZexagoIqCJIgiSLPqVu+S7fkgCJDnB8j4MRJlmZoWhIE
+XgUUgICWKTEAOpFuk4oRpl0FyCk5HEgnTiYT+NitQRSobCCVR4hmU+1OBP/DUqC9
+GCs4dLvLDu1F+LrA5XI4TYFwV5kjwL+DZMsjJYus2RRcTRzhRrpTs9sIE4VJ6NIC
+0hTH8LzIiRSfTKB3HZqOLFqA4AQekHgE3kFuLCkggeYEEgEOqiqtsDzHQIqiBB6R
+jAIoUhQFHvcEtxS3UpIohmRYEiqKCHA1JF4hArmV2OyEiaawT8mKNZ2a1Sa5SnVE
+nPSN5z1hCAozhARvC3wzQ1hoxOPP1x+566G5ueF4VfhNS8cSNMZ+lyq3JcWW9Xef
+K177zZh+pDljPud1OSTO89ZQ7lpXZE8S8qqJTWmRZGdfR7reOH3ct2G+w3tfLm3o
+dQyMpB7uLGqYdDbNxwyHhlDZm/cn15+si0Xx9dPRgxV7bKf9z28aPSv902/GJN34
+Y2pfYtqxo8O1xFiZoeviwTOjVfHXDhXTv94+GvrL4ulvqud8s92egUM1T/dkb967
+vcjao/Wd1qjuhszLGWO97pTKOyMfmb56hq9jN1tf6vVUVegfvLiaUPOe8cBz9pRb
+WcHzIxU7rPWbYnPftbbVtzfo7LTf25ryfKfyzb43UgdnllE+NXLqQ292/mHK6r6k
+zLYtGT9eWLn/zw95U2fX68S9fZ7dnZ3+b/8uP7twptn9/uBV9879k/3e0Mr6zIf+
+rL7Zgsjtn4A44fLMhdbFkS9qMoYXRnMy/5zx5lKvTTxrjTrgNd/bIfhHY/fBXL9v
+mPz6UuRe49DyRn/iWk1JuCfnfMPdi7XtpY3RHeYvax2d4MLuc/pCG3P++s9z5uDg
+1qXUxqVw2ysR8e1Hdr2wcRemV4O8T3uz/ur63rIOleKWiJXPr/aMgVlW9d+MWs0y
+UoVThdtcn+35kbCOp1wvTwYtTRslQfu7fjqxMJHQUrlseVAdT6Yf6yOvpD1wVD6V
+xw6UxyW8yoTcmkv/F1VSwhA=
+=9mTn
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/thesapper
+
+==================================================================
