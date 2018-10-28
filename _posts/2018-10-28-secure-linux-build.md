@@ -1,11 +1,15 @@
-# Building a Secure Linux Server
+---
+permalink: /guides/secure-linux-build
+---
+
+# Building a Secure CentOS Server
 
 ## Introduction
-This tutorial will guide you through the process of building a secure Linux server. You may be looking to introduce Linux servers into your environment, have existing servers that are in need of hardening, or you might simply be looking to learn more about Linux - in any of these cases I aim to show you the steps required to establish a secure baseline for a Linux server build. Like any guide, it should not be treated as a definitive or exhaustive set of step-by-step instructions, and you should make efforts to seek out more information on the points that seem more relevant or interesting (or both!) to you and your goals.
+This tutorial will guide you through the process of building a hardened Linux image. You may be looking to introduce Linux servers into your environment, have existing servers that are in need of hardening, or you might simply be looking to learn more about Linux - in any of these cases I aim to show you the steps required to establish a more secure baseline for a Linux server build. Like any guide, it should not be treated as a definitive or exhaustive set of step-by-step instructions, and you should make efforts to seek out more information on the points that seem more relevant or interesting (or both!) to you and your goals.
 
-The distro used in this guide is CentOS 7 but the principles and methods used can all be translated to whatever distro you prefer using. Naturally, some specific elements will differ (such as `apt` in Debian-based distros, rather than `yum` in RHEL) and I might make similar guides to cover those differences in the future. For now, just remember that you should always add your own research!
+The distro used in this guide is CentOS 7 but the principles and methods used can be translated to whatever distro you prefer using. There is a wide range of Linux distros to chose from, and the differences between them vary greatly, but if you know your chosen distro well, you should be able to translate the various elements in this guide to your preferred OS.
 
-I selected CentOS 7 for this guide because good guides already exist at [highon.coffee](https://highon.coffee/blog/security-harden-centos-7/ "@Arr0way's CentOS 7 hardening guide") and [centos.org](https://wiki.centos.org/HowTos/OS_Protection "CentOS.org's hardening guide") that I used as a basis to create a hardened image. So far, I've used that image to create a logging server, a HIDS server and a web server. In the future I'll be using the same image to create more logging and monitoring servers, and probably a Splunk Indexer, that will all likely be part of an Active Directory domain - I'll definitely be documenting that process, so watch this space.
+I selected CentOS 7 for this guide because good guides already exist at [highon.coffee](https://highon.coffee/blog/security-harden-centos-7/ "@Arr0way's CentOS 7 hardening guide") and [centos.org](https://wiki.centos.org/HowTos/OS_Protection "CentOS.org's hardening guide") that I used as a basis to create a hardened image. So far, I've used that image to create a logging server, a HIDS server and a web server. In the future I may be using it to create a Splunk Indexer, and it's likely that I'll soon add these as part of an Active Directory domain - I'll definitely documenti that process, so watch this space.
 
 ## Contents
 - [Download](#download)
