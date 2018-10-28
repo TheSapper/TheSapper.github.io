@@ -1,7 +1,3 @@
----
-permalink: /guides/secure-linux-build
----
-
 # Building a Secure CentOS Server
 
 ## Introduction
