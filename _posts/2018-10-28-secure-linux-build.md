@@ -1,5 +1,3 @@
-# Building a Secure CentOS Server
-
 ## Introduction
 This tutorial will guide you through the process of building a hardened Linux image. You may be looking to introduce Linux servers into your environment, have existing servers that are in need of hardening, or you might simply be looking to learn more about Linux - in any of these cases I aim to show you the steps required to establish a more secure baseline for a Linux server build. Like any guide, it should not be treated as a definitive or exhaustive set of step-by-step instructions, and you should make efforts to seek out more information on the points that seem more relevant or interesting (or both!) to you and your goals.
 
