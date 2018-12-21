@@ -55,7 +55,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
+  width:75%;
   margin:0 auto;
 }
 
@@ -69,13 +69,13 @@ blockquote {
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   color:#333;
+  background:#e5e5e5;
 }
 
 pre {
   padding:8px 15px;
-  background: #f8f8f8;
   border-radius:5px;
-  border:1px solid #e5e5e5;
+  border:1px solid #aaaaaa;
   overflow-x: auto;
 }
 
@@ -171,7 +171,7 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:75%;
   float:right;
   padding-bottom:50px;
 }
