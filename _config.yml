@@ -1,5 +1,7 @@
 name: InfosecSapper.com
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
-theme: jekyll-theme-minimal
+permalink: /blog/:year/:month/:day/:title
