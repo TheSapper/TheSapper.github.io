@@ -3,13 +3,6 @@ function toggleTheme(){
 	var body = document.getElementById('body');
 	var currentClass = body.className;
 	body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
-	if (body.className == "light-mode"){
-		document.getElementById('theme-switch').innerHTML = "Dark Theme";
-	} else if (body.className == "dark-mode"){
-		document.getElementById('theme-switch').innerHTML = "Light Theme";
-	} else {
-		console.log("Something went very wrong.")
-	}
 	localStorage.setItem("theme",body.className);
 }
 function checkTheme(){
