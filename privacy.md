@@ -23,7 +23,8 @@ Cookie name | Purpose
 ----- | -----  
 \_ga | Used by Google Analytics to create a unique user ID  
 \_gid | Used by Google Analytics to create a unique user ID  
-theme | Used by this site to remember your theme preference  
+
+This site will also store your preferred choice of theme (light or dark) using HTML5 Local Storage - the key is called 'theme' and the value will be either 'light-mode' or 'dark-mode', depending on your preference.
 
 ## General Statement
 If any part of this policy changes I will publish notification of that change as far in advance as I am able. Rest assured, my reason for collecting any information about your visit is for an interest in the visit itself, not in you as an individual. As such, no personally identifiable information is collected, stored or processed by me; the closest thing to PII would be the IP address collected by Google Analytics, but that has been configured specifically to be anonymised (which can be seen in the GA code for this site). However, should you find that there is any data being erroneously collected, or if you have any questions in general, please [raise an issue](https://github.com/InfosecSapper/InfosecSapper.github.io/issues/new).
