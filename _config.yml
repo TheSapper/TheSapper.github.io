@@ -5,3 +5,6 @@ kramdown:
   syntax_highlighter: rouge
 
 permalink: /blog/:year/:month/:day/:title
+
+plugins:
+  - jekyll-feed
