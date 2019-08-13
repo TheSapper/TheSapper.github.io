@@ -1,5 +1,5 @@
 ---
-Title: How to Build a Secure Linux Server
+title: How to Build a Secure Linux Server
 permalink: /guides/:title
 tags: [linux, how-to, guide, hardening]
 ---
