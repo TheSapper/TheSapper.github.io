@@ -1,48 +1,26 @@
 <!doctype html>
-<html lang=en>
+<html lang="en-GB">
   <head>
-    <!-- Theme selector script -->
-    <script>
-    function toggleTheme(){
-    	var body = document.getElementById('body');
-    	var currentClass = body.className;
-    	body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
-    	localStorage.setItem("theme",body.className);
-    }
-    function checkTheme(){
-    	if (!localStorage.getItem("theme")){
-    		localStorage.setItem("theme",document.getElementById('body').className);
-    	} else {
-    		document.getElementById('body').className = localStorage.getItem("theme");
-    	}
-    }
-    </script>
-    <!-- Cookie consent using CookieBot -->
-    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="e21d64b9-ded7-4d94-bef5-51e6b831bb50" type="text/javascript" async></script>
-    <!-- Metadata -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <title>{{ site.name }} | {{ page.title }}</title>
-    {% feed_meta %}
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
     {% seo %}
+    <link rel="preload" href="/assets/fonts/OpenSans-Regular-webfont.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="/assets/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/css/style.css">
   </head>
-  <body id="body" class="light-mode" onload="checkTheme();">
-    <div class="wrapper">
-      <header>
-        <h1>InfosecSapper</h1>
-        <p class="view"><a href="https://infosecsapper.com">Home</a> | <a id="theme-switch" href="javascript:toggleTheme();">Change Theme</a></p>
-      </header>
-      <section>
+  <body>
+    <header>
+      <nav aria-label="primary">
+        <a href="{{ site.url }}">Home</a> | <a href="{{ site.url }}">Blog</a> | <a href="{{ site.url }}">Guides</a> | <a href="{{site.url}}">About</a>
+      </nav>
+    </header>
+    <main>
       {{ content }}
-      </section>
-      <footer>
-        <p><small><a href="{{ site.github.owner_url }}">GitHub</a> | <a href="https://twitter.com/InfosecSapper">Twitter</a> | <a rel="me" href="https://mastodon.social/@infosecsapper">Mastodon</a><br />PGP: <a href="https://keybase.io/thesapper">E8E079E314EF4199</a></small></p>
-        <p>
-          <small><a href="/privacy.html">Privacy Statement</a></small><br />
-          <small>Hosted on GitHub Pages</small>
-        </p>
-      </footer>
-    </div>
+    </main>
+    <footer>
+      <a href="#" class="fas fa-arrow-circle-up fa-2x" aria-label="Scroll to Top" aria-hidden="false"></a>
+    </footer>
   </body>
 </html>
