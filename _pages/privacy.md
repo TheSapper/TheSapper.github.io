@@ -21,6 +21,3 @@ This website is hosted on GitHub Pages. You can view their privacy statement [he
 
 ## General Statement
 Since removing Google Analytics from my website, I can safely say I am not collecting data about you or your visit. However, should you find that there is any data being erroneously collected, or if you have any questions in general, please [raise an issue](https://github.com/InfosecSapper/InfosecSapper.github.io/issues/new).
-
-## Cookie Declaration
-{% include_relative cookies.html %}

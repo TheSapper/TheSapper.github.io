@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">    
     {% seo %}
-    <link rel="preload" href="/assets/fonts/OpenSans-Regular-webfont.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="/assets/webfonts/OpenSans-Light-webfont.woff" as="font" type="font/woff" crossorigin>
     <link rel="preload" href="/assets/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -13,14 +13,15 @@
   <body>
     <header>
       <nav aria-label="primary">
-        <a href="{{ site.url }}">Home</a> | <a href="{{ site.url }}">Blog</a> | <a href="{{ site.url }}">Guides</a> | <a href="{{site.url}}">About</a>
+        <ul>
+          <li><a href="{{ site.url }}">Home</a></li>
+          <li><a href="/categories/">Categories</a></li>
+          <li><a href="{{ site.url }}">About</a></li>
+        </ul>
       </nav>
     </header>
     <main>
       {{ content }}
     </main>
-    <footer>
-      <a href="#" class="fas fa-arrow-circle-up fa-2x" aria-label="Scroll to Top" aria-hidden="false"></a>
-    </footer>
   </body>
 </html>
