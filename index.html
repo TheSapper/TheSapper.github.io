@@ -1,11 +1,42 @@
 ---
 layout: default
-title: Home
-description: infosecsapper.com home page.
 ---
-<!-- posts -->
-{% for post in site.posts %}
-<a href="{{ post.url }}">{{ post.title }}</a>
+<h1>InfosecSapper Home</h1>
+<h2>Recent posts</h2>
+{% for post in paginator.posts %}
+<article>
+	<h3>
+		<a href="{{ post.url }}">{{ post.title }}</a>
+	</h3>
 	{{ post.excerpt }}
+</article>
 {% endfor %}
-<!-- /posts -->
+<aside>
+	<section class="pagination">
+	{% if paginator.total_pages > 1 %}
+		<ul>
+		{% if paginator.previous_page %}
+			<li><a href="{{ paginator.previous_page_path }}" title="Previous page" aria-label="Previous page" class="fas fa-angle-left"></a></li>
+		{% else %}
+		<li><i class="fas fa-angle-left"></i></li>
+		{% endif %}
+	
+		{% for page in (1..paginator.total_pages) %}
+			{% if page == paginator.page %}
+				<li>{{ page }}</li>
+			{% elsif page == 1 %}
+				<li><a href="/" title="First page" aria-label="First page">{{ page }}</a></li>
+			{% else %}
+				<li><a href="/{{ page }}/" title="Page {{ page }}" aria-label="Go to page {{ page }}">{{ page }}</a></li>
+			{% endif %}
+		{% endfor %}
+	
+		{% if paginator.next_page %}
+		<li><a href="{{ paginator.next_page_path }}" title="Next page" aria-label="Next page" class="fas fa-angle-right"></a></li>
+		{% else %}
+			<li><i class="fas fa-angle-right"></i></li>
+		{% endif %}
+		</ul>
+	{% endif %}
+	</section>
+</aside>

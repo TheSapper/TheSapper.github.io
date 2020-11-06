@@ -1,26 +1,75 @@
-name: InfosecSapper.com
-title: The InfosecSapper's Blog
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+
+title: InfosecSapper.com
+tagline: InfosecSapper's blog and guides
 description: A blog covering a variety of IT and information security topics.
 url: "https://infosecsapper.com"
-baseurl: ""
 author: InfosecSapper
 twitter:
-  username: infosecsapper
+  username: infosecapper
   card: summary
 social:
+  name: infosecsapper
   links:
-    - https://twitter.com/InfosecSapper
-    - https://github.com/InfosecSapper
+    - https://twitter.com/infosecsapper
+    - https://github.com/infosecsapper
     - https://keybase.io/thesapper
+    - https://www.reddit.com/user/InfosecSapper
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/default.jpg
+  - scope:
+      type: posts
+    values:
+      layout: post
+
+paginate: 5
+paginate_path: "/:num/"
+
+permalink: /:categories/:title
+
+name: InfosecSapper.com
+baseurl: "" # the subpath of your site, e.g. /blog
+lang: en_GB
+
+repository: infosecsapper/infosecsapper.github.io
+twitter_username: infosecsapper
+github_username:  infosecsapper
+
+# Build settings
+theme: jekyll-theme-midnight
 markdown: kramdown
 kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
-permalink: /blog/:year/:month/:day/:title
-
+    input: GFM
+    syntax_highlighter: rouge
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-sitemap
+
+include: [_pages]
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
