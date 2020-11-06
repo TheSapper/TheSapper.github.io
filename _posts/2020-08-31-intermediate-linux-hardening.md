@@ -1,5 +1,5 @@
 ---
-title: Advanced Linux Hardening
+title: Intermediate Linux Hardening
 category: Guides
 ---
 
