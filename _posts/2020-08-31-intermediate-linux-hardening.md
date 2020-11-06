@@ -11,8 +11,6 @@ This guide follows on from the [Basic Linux hardening](https://infosecsapper.com
 * TOC
 {:toc}
 
-## Advanced Hardening
-
 ### Securing GRUB2 and Boot
 
 GRUB 2 gives you two options: password authentication for modifying the boot menu entries, or password authentication for modifying the boot menu *and* for booting one of those menu entries, effectively restricting single user mode to password authentication. The procedure for both is documented [here](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/sec-protecting_grub_2_with_a_password "Redhat - Protecting GRUB 2 With A Password"), but I'll summarise. First,  run the command `grub2-setpassword` as root and you'll be prompted to enter the password. Once you've done so, you'll have enabled the first of the two options mentioned above. To take things a step further and require a password for booting the GRUB 2 menu options, open `/boot/grub2/grub.cfg` and find the lines beginning with `menuentry`. For those menu entries that you want to protect with the GRUB 2 password, remove the `--unrestricted` option from the parameter block. These changes will persist after reboots, but if you ever rebuild the config using `grub2-mkconfig` the changes will be overwritten and you'll need to redo them.  
